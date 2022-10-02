@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+    {% block head%}
+    <head>
+        <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css')}}">
+ 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  {% endblock%}
+
+  <body>
+    <script>
+        AOS.init();
+      </script>
+    <header>
+        <div class="container" data-aos="fade-up"
+        data-aos-duration="3000">
+            <nav>
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <img src="https://raw.githubusercontent.com/jlop007/outdoors-website/master/tours/images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="menu-icons open">
+                    <i class="icon ion-md-menu"></i>
+                </div>
+                <ul class="nav-list">
+                    <div class="menu-icons close">
+                        <i class="icon ion-md-close"></i>
+                    </div>
+                    <li class="nav-item"><a href="#ho" class="nav-link current">Home</a></li>
+                    <li class="nav-item"><a href="/about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="/bus" class="nav-link">Our Business</a></li>
+                    <li class="nav-item"><a href="/sus" class="nav-link">Sustainability</a></li>
+                    <li class="nav-item"><a href="/media" class="nav-link">Media</a></li>
+                    <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!--li class="nav-item"><a href="#home" class="nav-link current">Home</a></li>
+    <li class="nav-item"><a href="/about" class="nav-link">About Us</a></li>
+    <li class="nav-item"><a href="#pricing" class="nav-link">Our Business</a></li>
+    <li class="nav-item"><a href="#booking" class="nav-link">Sustainability</a></li>
+    <li class="nav-item"><a href="#about" class="nav-link">Media</a></li>
+    <li class="nav-item"><a href="#about" class="nav-link">Contact</a></li> -->
+    <main>
+        <section class="hero" id="home" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+            <div class="container">
+                <div class="main-message">
+                    <h3><b>Supporting and</b> </h3>
+                    <h1><b>Transforming Our world</b></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati inventore 
+                        blanditiis voluptatum tempora ipsum perferendis, quo animi molestias quasi 
+                        eos culpa eaque nisi quos nam debitis eligendi expedita incidunt quisquam!
+                    </p>
+                    <div class="cta" style="background-color:#fff; width:150px; height:40px; border-radius:40px; text-align:center;" >
+                       <h3> <a href="#" class="btn" style="padding:10px;    "><h5><b>Discover More</b></h5></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {% block body %}
+        {% endblock%}
+ 
+    <section class="testimonials" id="pricing" data-aos="fade-up"
+    data-aos-duration="3000">
+        <div class="container">
+            <div class="testimonial">
+                <div class="testimonial-text-box">
+                    <h1>Camping</h1>
+                    <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium, ad.
+                    </h3>
+                </div>
+              
+                <div class="testimonial-costumer">
+                </div>
+            </div>
+        </div>
+    </section>
+  
+
+      
+     <footer id="footer" style="background-color:rgb(41, 21, 115);"  data-aos="fade-up"
+    data-aos-duration="1000">
+        <div class="footer-container">
+          <div class="footer-form">
+            <h2>Sign up for our newsletter</h2>
+            <p>We send emails with news, articles and information about our promotions.<br>No junk mail, we promise!</p>
+            <form>
+              <input type="email" name="mail" placeholder="Enter your email to update" required>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+    
+          <div class="block">
+            <div class="footer-contacts">
+              <h5>HALOVIETNAM LTD</h5><br>
+              <address>66, Dang Van ngu, Dong Da<br><br> Hanoi, Vietnam</address>
+              <a href="mailto:contact@halovietnam.com">contact@halovietnam.com<br><br></a>
+              <a href="tel:+844123456789">+844 1234 56789</a>
+            </div>
+            <div class="footer-nav">
+              <ul>
+                <li><a href="#">Examples</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">License</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Download</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Documents</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Media</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Forums</a></li>
+              </ul>
+            </div>
+          </div>
+    
+        </div>
+      </footer>
+
+      <div id="up-btn">
+        <a href="#up"><i class="fa fa-3x fa-chevron-up" aria-hidden="true"></i></a>
+      </div>
+ 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
