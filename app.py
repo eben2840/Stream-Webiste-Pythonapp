@@ -9,8 +9,15 @@ app=Flask(__name__)
 app.config['SECRET_KEY']= 'ADKADKFJ'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///test.db'
 
-
 @app.route('/',methods=['GET','POST'])
+def home():
+    return render_template('home.html')
+
+@app.route('/blog',methods=['GET','POST'])
+def blog():
+    return render_template('blog.html')
+
+@app.route('/main2',methods=['GET','POST'])
 def main2():
     return render_template('main2.html')
 
@@ -22,17 +29,17 @@ def main():
 def about():
     return render_template('about.html')
 
-@app.route('/bus',methods=['GET','POST'])
-def bus():
-   return render_template('bus.html')
+@app.route('/our-businesses',methods=['GET','POST'])
+def ourbusinesses():
+   return render_template('base.html')
 
-@app.route('/sus',methods=['GET','POST'])
-def sus():
+@app.route('/sustainability',methods=['GET','POST'])
+def sustainability():
    return render_template('sus.html')
 
 @app.route('/media',methods=['GET','POST'])
 def media():
-   return render_template('media.html')
+   return render_template('blog.html')
 
 @app.route('/contact',methods=['GET','POST'])
 def contact():
