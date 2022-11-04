@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;;
     color: #444444;
   }
   
@@ -29,7 +29,7 @@ body {
   h4,
   h5,
   h6 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   
   /*--------------------------------------------------------------
@@ -75,7 +75,7 @@ body {
   }
   
   #header .logo {
-    font-size: 30px;
+    font-size: 25px;
     margin: 0;
     padding: 0;
     line-height: 1;
@@ -415,7 +415,7 @@ body {
   }
   
   #hero .btn-get-started {
-    font-family: "Poppins", sans-serif;
+    font-family: "Poppins", sans-serif;;
     text-transform: uppercase;
     font-weight: 400;
     font-size: 13px;
@@ -517,60 +517,60 @@ body {
   /*--------------------------------------------------------------
   # About
   --------------------------------------------------------------*/
-  .about .content h3 {
-    font-weight: 600;
-    font-size: 26px;
-  }
-  
-  .about .content ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .about .content ul li {
-    padding-left: 28px;
-    position: relative;
-  }
-  
-  .about .content ul li+li {
-    margin-top: 10px;
-  }
-  
-  .about .content ul i {
-    position: absolute;
-    left: 0;
-    top: 2px;
-    font-size: 20px;
-    color: #e43c5c;
-    line-height: 1;
-  }
-  
-  .about .content p:last-child {
-    margin-bottom: 0;
-  }
-  
-  .about .content .btn-learn-more {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    letter-spacing: 1px;
-    display: inline-block;
-    padding: 12px 32px;
-    border-radius: 50px;
-    transition: 0.3s;
-    line-height: 1;
-    color: #e43c5c;
-    -webkit-animation-delay: 0.8s;
-    animation-delay: 0.8s;
-    margin-top: 6px;
-    border: 2px solid #e43c5c;
-  }
-  
-  .about .content .btn-learn-more:hover {
-    background: #e43c5c;
-    color: #fff;
-    text-decoration: none;
-  }
+    .about .content h3 {
+      font-weight: 600;
+      font-size: 26px;
+    }
+    
+    .about .content ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .about .content ul li {
+      padding-left: 28px;
+      position: relative;
+    }
+    
+    .about .content ul li+li {
+      margin-top: 10px;
+    }
+    
+    .about .content ul i {
+      position: absolute;
+      left: 0;
+      top: 2px;
+      font-size: 20px;
+      color: #e43c5c;
+      line-height: 1;
+    }
+    
+    .about .content p:last-child {
+      margin-bottom: 0;
+    }
+    
+    .about .content .btn-learn-more {
+      font-family: "Poppins", sans-serif;;
+      font-weight: 600;
+      font-size: 14px;
+      letter-spacing: 1px;
+      display: inline-block;
+      padding: 12px 32px;
+      border-radius: 50px;
+      transition: 0.3s;
+      line-height: 1;
+      color: #e43c5c;
+      -webkit-animation-delay: 0.8s;
+      animation-delay: 0.8s;
+      margin-top: 6px;
+      border: 2px solid #e43c5c;
+    }
+    
+    .about .content .btn-learn-more:hover {
+      background: #e43c5c;
+      color: #fff;
+      text-decoration: none;
+    }
   
   /*--------------------------------------------------------------
   # Services
@@ -704,7 +704,7 @@ body {
   }
   
   .cta .cta-btn {
-    font-family: "Nunito", sans-serif;
+    font-family: "Poppins", sans-serif;;
     text-transform: uppercase;
     font-weight: 500;
     font-size: 16px;
@@ -725,6 +725,52 @@ body {
   
   @media (min-width: 1024px) {
     .cta {
+      background-attachment: fixed;
+    }
+  }
+  
+    /*--------------------------------------------------------------
+  # Ct
+  --------------------------------------------------------------*/
+  .ct {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("https://optimole.movingworlds.org/w:auto/h:auto/q:mauto/http://blog.movingworlds.org/wp-content/uploads/2015/08/17-Sustainable-development-goals-summary-small.png") center center;
+    background-size: cover;
+    padding: 60px 0;
+    height:500px;
+  }
+  
+  .ct h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .ct p {
+    color: #fff;
+  }
+  
+  .ct .ct-btn {
+    font-family: "Poppins", sans-serif;;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  .ct .ct-btn:hover {
+    background: #e43c5c;
+    border: 2px solid #e43c5c;
+  }
+  
+  @media (min-width: 1024px) {
+    .ct {
       background-attachment: fixed;
     }
   }
@@ -918,7 +964,7 @@ body {
     font-size: 42px;
     color: #e43c5c;
     font-weight: 500;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;;
     margin-bottom: 20px;
   }
   
@@ -971,7 +1017,7 @@ body {
     color: #e43c5c;
     font-size: 14px;
     font-weight: 400;
-    font-family: "Nunito", sans-serif;
+    font-family: "Poppins", sans-serif;;
     font-weight: 600;
     transition: 0.3s;
   }
@@ -1029,7 +1075,7 @@ body {
   .faq .faq-list .question {
     display: block;
     position: relative;
-    font-family: #e43c5c;
+    font-family: "Poppins", sans-serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
@@ -2134,7 +2180,7 @@ body {
     .price-tag {
       background-color: var(--bg-price-tag);
       color: var(--text-price-tag);
-      font-family: 'Lato';
+      font-family: "Poppins", sans-serif;;
       border-radius: 2px;
       padding: 0.2rem 0.5rem;
       margin-top: 40px;
@@ -2300,7 +2346,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .new_footer_top .footer_bg .footer_bg_one {
-  background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0PYPxwT5ifToyP3SNZeQWfJEWrUENYA5IXM6sN5vLwAKvaJS1pQVu8mOFFUa_ET4JuHNTFAxKURFerJYHDUWXLXl1vDofYXuij45JZelYOjEFoCOn7E6Vxu0fwV7ACPzArcno1rYuVxGB7JY6G7__e4_KZW4lTYIaHSLVaVLzklZBLZnQw047oq5-Q/s16000/volks.gif") no-repeat center center;
+  background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEia0PYPxwT5ifToyP3SNZeQWfJEWrUENYA5IXM6sN5vLwAKvaJS1pQVu8mOFFUa_ET4JuHNTFAxKURFerJYHDUWXLXl1vDofYXuij45JZelYOjEFoCOn7E6Vxu0fwV7ACPzArcno1rYuVxGB7JY6G7__e4_KZW4lTYIaHSLVaVLzklZBLZnQw047oq5-Q/s16000/volks.gif")    center;
   width: 330px;
   height: 105px;
 background-size:100%;

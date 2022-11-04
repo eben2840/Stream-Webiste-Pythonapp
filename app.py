@@ -17,8 +17,8 @@ def home():
 def blog():
     return render_template('blog.html')
 
-@app.route('/main2',methods=['GET','POST'])
-def main2():
+@app.route('/wedding',methods=['GET','POST'])
+def wedding():
     return render_template('main2.html')
 
 @app.route('/main',methods=['GET','POST'])
