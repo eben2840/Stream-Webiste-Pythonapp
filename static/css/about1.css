@@ -467,3 +467,51 @@ body {
     color: #fff;
     text-decoration: none;
   }
+
+
+    /*--------------------------------------------------------------
+  # Ct
+  --------------------------------------------------------------*/
+  .ct {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("https://optimole.movingworlds.org/w:auto/h:auto/q:mauto/http://blog.movingworlds.org/wp-content/uploads/2015/08/17-Sustainable-development-goals-summary-small.png") center center;
+    background-size: cover;
+    padding: 60px 0;
+    height:500px;
+  }
+  
+  .ct h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .ct p {
+    color: #fff;
+  }
+  
+  .ct .ct-btn {
+    font-family: "Poppins", sans-serif;;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  .ct .ct-btn:hover {
+    background: #e43c5c;
+    border: 2px solid #e43c5c;
+  }
+  
+  @media (min-width: 1024px) {
+    .ct {
+      background-attachment: fixed;
+    }
+  }
+  

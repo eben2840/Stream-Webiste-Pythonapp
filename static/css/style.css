@@ -11,6 +11,7 @@
 body {
     font-family: "Poppins", sans-serif;;
     color: #444444;
+    background-color:#f6f4f4;
   }
   
   a {
@@ -89,7 +90,7 @@ body {
   }
   
   #header .logo img {
-    max-height: 40px;
+    max-height: 60px;
   }
   
   #header.header-scrolled,
@@ -1059,6 +1060,7 @@ body {
   --------------------------------------------------------------*/
   .faq {
     padding: 60px 0;
+    
   }
   
   .faq .faq-list {
@@ -1918,7 +1920,7 @@ body {
   --------------------------------------------------------------*/
   #footer {
     color: #444444;
-    
+    background-color:#8A8FF9;
     font-size: 14px;
     background: #8A8FF9;
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -2199,7 +2201,12 @@ body {
   --------------------------------------------------------------------------------------
 
 .new_footer_area {
-  background: #fbfbfd;
+  color: #444444;
+  background-color:#8A8FF9;
+  font-size: 14px;
+  background: #8A8FF9;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  background: #6a7695;
 }
 
 
@@ -2223,7 +2230,7 @@ body {
   font-size: 16px;
   font-weight: 300;
   line-height: 28px;
-  color: #6a7695;
+  color: #fff;
   margin-bottom: 20px;
 }
 .new_footer_top .company_widget .f_subscribe_two .btn_get {
@@ -2277,7 +2284,7 @@ a:hover, a:focus, .btn:hover, .btn:focus, button:hover, button:focus {
   border-radius: 50%;
   font-size: 14px;
   line-height: 45px;
-  color: #858da8;
+  color: #fff;
   display: inline-block;
   background: #ebeef5;
   text-align: center;
@@ -2329,11 +2336,11 @@ color:white;
 .f_size_18 {
   font-size: 18px;
 }
-h1, h2, h3, h4, h5, h6 {
-  color: #4b505e;
+h1, h2, h4, h5, h6 {
+  color: #fff;
 }
 .new_footer_top .f_widget.about-widget .f_list li a {
-  color: #6a7695;
+  color: #fff;
 }
 
 
@@ -2399,4 +2406,39 @@ background-size:100%;
 }
 
 /*************footer End*****************/
+
+
+
+
+
+
+.progress--circle {
+  position: relative;
+  justify-content: center;
+  margin-left: 90px;
+align-items: center;
+  display: inline-block;
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #6754e2;
+}
+
+
+
+  
+
+
+.progress__number {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  line-height: 1;
+  margin-top: -0.75rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #777;
+}
+
 
