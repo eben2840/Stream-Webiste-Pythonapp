@@ -729,6 +729,49 @@ body {
       background-attachment: fixed;
     }
   }
+
+  .ca {
+    background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("  https://t3.ftcdn.net/jpg/00/86/56/12/360_F_86561234_8HJdzg2iBlPap18K38mbyetKfdw1oNrm.jpg") center center;
+    background-size: cover;
+    padding: 60px 0;
+    height:500px;
+  }
+  
+  .ca h3 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .ca p {
+    color: #fff;
+  }
+  
+  .ca .ca-btn {
+    font-family: "Poppins", sans-serif;;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border-radius: 25px;
+    transition: 0.5s;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  .ca .ca-btn:hover {
+    background: #e43c5c;
+    border: 2px solid #e43c5c;
+  }
+  
+  @media (min-width: 1024px) {
+    .ca {
+      background-attachment: fixed;
+    }
+  }
   
     /*--------------------------------------------------------------
   # Ct
